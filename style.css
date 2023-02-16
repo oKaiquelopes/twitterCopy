@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.telaCelular{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 672px;
+    
+}
+.capa{
+    display: flex;
+    height: 100px;
+    position: absolute;
+}
+.capaFoto{
+    height: 145px;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    
+    height: 200px;
+}
+.perfil{
+    display: flex;
+    position: relative;
+    margin-top: 20%;
+    margin-left: 3%;
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+}
+.perfilFoto{
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    background-color: white;
+}
+.editPerfil{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40%;
+    margin-left: 28%;
+    font-family: "Poppins";
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 80px;
+    width: 35%;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+.nomePerfil{
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.userName{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 2%;
+    font-size: 1em;
+}
+.bio{
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 1.1em;
+}
+.loc{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.inscricao{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.seguindo-seguidores{
+    display: flex;
+    flex-direction: row;
+}
+.seguindo{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #000;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.seguindo span{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+}
+.seguidores{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #000;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.seguidores span{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+.navOptionOn{
+    font-family: "poppins";
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 4px solid #00A3FF;
+}
+.navOptionOff{
+    font-family: "poppins";
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+.tweet{
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    align-items: center;
+}
+.logoTw{
+    height: 70px;
+    width: 80px;
+    border-radius: 20px;
+    margin-top: 8%;
+}
+.alert{
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 5%;
+}
